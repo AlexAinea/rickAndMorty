@@ -1,0 +1,24 @@
+body{
+  background-color: rgb(0, 0, 0);
+  color: #97ce4c;
+  padding: 0;
+  margin: 0;
+}
+
+.hoverButton:hover{
+  transition: 2s;
+  cursor: pointer;
+  box-shadow: 0 0 10px green;
+  letter-spacing: 5px;
+}
+
+.hoverButton img:hover{
+  transition: 30s;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.bg{
+  background-color: #98ce4c59;
+  border-radius: 20px;
+}
